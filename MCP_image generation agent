@@ -1,0 +1,26 @@
+Google AI Agent Intensive — Project Exercise
+
+This project implements an intelligent Image Generation Agent that interacts with publicly available MCP (Model Context Protocol) Image Generation servers. The agent is designed with a cost-aware workflow, ensuring safe and controlled use of bulk image generation.
+
+🚀 Features
+✔️ Smart Approval Logic
+
+Single image request (1 image) → Auto-approve
+
+Bulk request (>1 image) → Agent pauses → Asks for explicit user approval
+
+✔️ MCP Server Integration
+
+Connects to multiple publicly available image-generation MCP servers
+
+Switches dynamically
+
+Compares performance and stability
+
+✔️ Kaggle-Friendly Agent
+
+Fully runnable inside a Kaggle Notebook
+
+Outputs images directly into /kaggle/working/
+
+Easily exported and pushed to GitHub
